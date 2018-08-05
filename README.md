@@ -13,6 +13,12 @@ Command to follow
 2. install the project in local "mvn install"
 3. run the application as "Run as SpringBoot in your IDE"
 
+Call the application locally
+
+ 'localhost:8080/USA/stateabbreviation/{stateAbb}
+ 
+ Note: StateAbbriviation must be Upper case.
+
 
 
 Pom File Dependency 
