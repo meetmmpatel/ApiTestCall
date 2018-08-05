@@ -13,6 +13,9 @@ Command to follow
 2. install the project in local "mvn install"
 3. run the application as "Run as SpringBoot in your IDE"
 
+Call application using following URL
+
+http://localhost:8080/USA/stateabbreviation/{stateAbbr}
 
 
 Pom File Dependency 
