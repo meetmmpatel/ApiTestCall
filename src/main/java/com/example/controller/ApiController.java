@@ -30,22 +30,4 @@ public class ApiController {
 		return rest.exchange(url, HttpMethod.GET, entity, String.class).getBody();
 	}
 
-//	@RequestMapping(value = "/USA/statename/{stateName}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-//	public String getStatebyName(@PathVariable String stateName) {
-//
-//		String stateAbbreviation = stateName;
-//
-//		
-//        System.out.println(stateAbbreviation);
-//		System.out.println("this is final state names " + stateAbbreviation);
-//		String url = baseUrl + stateAbbreviation;
-//		System.out.println("this is final state URL " + url);
-//		HttpHeaders headers = new HttpHeaders();
-//		headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
-//		HttpEntity<String> entity = new HttpEntity<String>(headers);
-//
-//		return rest.exchange(url, HttpMethod.GET, entity, String.class).getBody();
-//
-//	}
-
 }
